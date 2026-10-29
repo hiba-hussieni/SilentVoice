@@ -1,0 +1,24 @@
+﻿# Build files
+**/build/
+**/target/
+**/.gradle/
+
+# IDE and local settings
+**/.idea/
+**/*.iml
+**/local.properties
+**/.classpath
+**/.project
+**/.settings/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/*.jks
+**/*.keystore
+
+# System files
+.DS_Store
+Thumbs.db

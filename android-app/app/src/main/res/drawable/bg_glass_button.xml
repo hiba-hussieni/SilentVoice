@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradient border -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#7B4DFF"
+                android:centerColor="#5F9CFF"
+                android:endColor="#4FD1C5"
+                android:angle="0" />
+            <corners android:radius="30dp"/>
+        </shape>
+    </item>
+
+    <!-- Inner glass -->
+    <item android:inset="2dp">
+        <shape>
+            <solid android:color="#33FFFFFF"/>
+            <corners android:radius="28dp"/>
+        </shape>
+    </item>
+
+</layer-list>

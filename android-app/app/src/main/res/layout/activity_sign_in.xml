@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgBgSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/signin_light"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/btnThemeSignIn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="☾"
+        android:textSize="22sp"
+        android:textColor="#111827"
+        android:elevation="20dp" />
+
+    <LinearLayout
+        android:id="@+id/signInCard"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="330dp"
+        android:elevation="14dp">
+        <TextView
+            android:id="@+id/tvTitleSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome  👋"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvSubtitleSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up to continue"
+            android:textSize="13sp"
+            android:layout_marginBottom="22dp" />
+
+        <EditText
+            android:id="@+id/etFullNameSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Username"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:singleLine="true"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etEmailSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:singleLine="true"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPasswordSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:singleLine="true"
+            android:layout_marginBottom="22dp" />
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/button_primary" />
+
+    </LinearLayout>
+
+</FrameLayout>

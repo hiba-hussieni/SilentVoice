@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="300dp"
+    android:viewportWidth="360"
+    android:viewportHeight="300">
+
+    <!-- soft colored shadow / layer -->
+    <path
+        android:fillColor="#55D9D6F7"
+        android:pathData="M0,95 C95,175 230,215 360,120 L360,300 L0,300 Z"/>
+
+    <!-- white front curve -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,125 C95,200 235,230 360,145 L360,300 L0,300 Z"/>
+</vector>

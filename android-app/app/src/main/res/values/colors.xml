@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Background -->
+    <color name="background_dark">#0D0F1A</color>
+    <color name="background_light">#F5F6FA</color>
+
+    <!-- Primary (Purple Style) -->
+    <color name="primary">#7B61FF</color>
+    <color name="primary_dark">#673AB7</color>
+
+    <!-- Accent -->
+    <color name="accent">#00E5A8</color>
+
+    <!-- Text -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#A0A3BD</color>
+
+    <color name="text_primary_light">#111111</color>
+    <color name="text_secondary_light">#666666</color>
+
+    <!-- Cards -->
+    <color name="card_dark">#1A1D2E</color>
+
+
+    <!-- Status Colors -->
+    <color name="success">#00C853</color>
+    <color name="warning">#FFD600</color>
+    <color name="error">#D50000</color>
+
+    <!-- Finger Colors -->
+    <color name="thumb">#00E676</color>
+    <color name="index">#40C4FF</color>
+    <color name="middle">#FFD740</color>
+    <color name="ring">#B388FF</color>
+    <color name="pinky">#FF4081</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="gradient_start">#42E2D5</color>
+    <color name="gradient_end">#FF7ACD</color>
+    <color name="card_stroke">#33FFFFFF</color>
+    <color name="onboard_dark_bg">#050B16</color>
+    <color name="onboard_light_bg">#FFFFFF</color>
+
+    <color name="onboard_text_dark">#FFFFFF</color>
+    <color name="onboard_text_light">#0F172A</color>
+
+    <color name="onboard_sub_dark">#D1D5DB</color>
+    <color name="onboard_sub_light">#4B5563</color>
+
+    <color name="dot_inactive_light">#DDE3F0</color>
+    <color name="dot_inactive_dark">#2B3448</color>
+
+</resources>
