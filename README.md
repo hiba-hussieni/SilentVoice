@@ -4,6 +4,18 @@ An Android application and Spring Boot backend developed as a Computer and Commu
 
 SilentVoice explores assistive communication through predefined hand-gesture mappings, sensor data, and AI-assisted sentence generation.
 
+## App Preview
+
+### Onboarding, Sign Up, and Login
+
+![SilentVoice onboarding, sign-up, and login screens](docs/onboarding.jpeg)
+
+### Core Features
+
+![SilentVoice sensor controls, communication modes, and profile screens](docs/core-features.jpeg)
+
+These screenshots show the original project demonstration. End-to-end operation has not been reverified for this portfolio copy.
+
 ## Features
 
 - Android interfaces built with Java and XML.
@@ -31,6 +43,7 @@ SilentVoice explores assistive communication through predefined hand-gesture map
 - `android-app/`: Android application source and Gradle configuration.
 - `backend/`: Spring Boot REST API and Maven configuration.
 - `database/silent_voice_schema.sql`: database tables, indexes, and relationships without user records.
+- `docs/`: screenshots from the original project demonstration.
 
 ## Requirements
 
